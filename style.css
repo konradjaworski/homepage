@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+    
+    }
+    
+    *, ::after, ::before {
+    box-sizing: inherit;
+    }
+
+
+.naglowek{
+    color:brown;
+    background-color: aqua;
+
+}
+
+.ciekawy{
+    color:rgb(67, 196, 219);
+}
+
+.skrzynka{
+    color:hsl(312, 71%, 39%);
+    background-color: rgba(128, 128, 128, 0.126);
+}
+
+.element{
+width:1000px;
+background: #ccc;
+padding: 100px;
+margin: 100px auto;
+border: 5px solid rgb(127, 228, 243);
+}
+
+.tableCell {
+border: 2px solid rgba(84, 182, 235, 0.669);
+padding: 20px;
+text-align: center;
+}
+
+.table{
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+.tableHeader{
+background-color: rgb(40, 133, 219);
+color: whitesmoke;
+font-weight: normal;
+}
+
+.tableRow:nth-child(even){
+background: rgb(181, 215, 242);
+}
+
+.tableRow:hover {
+    background: rgb(10, 93, 156);
+}
+
+.container {
+    overflow-x: auto;
+    background-color: rgba(128, 128, 128, 0.185);
+}
+
+.tableCellTab {
+    border: 2px solid rgba(84, 182, 235, 0.669);
+    padding: 20px;
+}
+
+.listKon {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-left: auto;  
+ background: #c3e9f5;
+ list-style-type: none;
+}
+
+.linkee {
+    color: red;
+    text-decoration: none;
+}
+
+.linkee:focus {
+    outline: 2px solid currentColor;
+}
+
+.linkee:hover {
+    color: dark rgb(90, 35, 35);
+    border-bottom: 3px solid;
+    outline: none;
+}
+
+.element {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    line-height: 1,5;
+
+}
+
+
+.zabawa {
+    width: 1000px;
+    height: auto;
+    background-color: aquamarine;
+    border: 4px ridge rgb(149, 208, 229);
+    border-width: 10px 20px;
+    border-radius: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: auto;
+box-shadow: 25px -25px 0px -7px rgba(179, 232, 249, 1);
+
+}
+
+.przyciskIner{
+    background-color: rgba(159, 159, 218, 0.763);
+}
+
+.margine {
+    margin: 20px;
+    background-color: red;
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.greyBackground {
+    background-color: darkgray;
+}
+
+.nextColorName {
+    background-color: rgba(128, 128, 128, 0.185);
+}
+}
