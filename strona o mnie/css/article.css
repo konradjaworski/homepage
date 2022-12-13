@@ -1,0 +1,28 @@
+.element {
+    font-family: 'Arial', cursive;
+    font-size: 25px;
+    line-height: 1,5;
+    box-shadow: 2px 5px;
+
+}
+
+.element__color {
+    color: rgb(52, 41, 122);
+}
+
+.element__color--one {
+    color:rgb(67, 196, 219);
+}
+
+.element__color--two {
+    color:hsl(312, 71%, 39%);
+    box-shadow: 20px 20px ;
+}
+
+.element--darkness {
+    background: rgb(9, 1, 27);
+}
+
+.element--darkness .element__color {
+    color: rgb(200, 194, 240);
+}

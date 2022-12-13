@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Konrada</title>
+    <link href="css2/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script defer src="js2/script2.js"></script>
+</head>
+
+<body class="body">
+    <header class="starts">
+        <p>Kalkulator walut na ciężkie czasy</p>
+    </header>
+    <p>
+        <label>
+            Podaj dzisiejszy kurs 1 EURO = <input class="js-course" required type="number" min="0,1" step="any"> PLN
+        </label>
+    </p>
+    <form class="js-count">
+        <fieldset>
+            <legend>KALKULATOR POL>EURO </legend>
+            <p>
+                <label>
+                    Podaj posiadaną kwotę PLN:<input class="js-sum" required type="number" min="0.1" step="any">
+                </label>
+
+            </p>
+            <p>
+                <button> Przelicz PLN</button>
+            </p>
+    </form>
+    <p>W przeliczeniu na EURO masz:<strong class="result js-result"></strong></p>
+    </fieldset>
+    </form>
+    <p>
+    <form class="js-countEuro">
+        <fieldset>
+            <legend>KALKULATOR EURO>PLN </legend>
+            <p>
+                <label>
+                    Podaj posiadaną kwotę EURO:<input class="js-sumEuro" required type="number" min="0.1" step="any">
+                </label>
+
+            </p>
+            <p>
+                <button> Przelicz EURO</button>
+            </p>
+    </form>
+    <p>W przeliczeniu na PLN masz:<strong class="result js-resultEuro"></strong></p>
+    </fieldset>
+    </form>
+    </p>
+</body>
+
+<footer class="footer">@ Copyright 2022 by Konrad Jaworski</footer>
+
+</html>

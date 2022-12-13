@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    }
+    
+    *, ::after, ::before {
+    box-sizing: inherit;
+   
+    }
+
+
+.naglowek{
+    color:rgb(61, 179, 200);
+    background-color: rgba(0, 255, 255, 0.331);
+    margin: 50px 300px 10px  150px;
+
+}
+
+.body{
+    color:rgb(6, 42, 48);
+    background-color: rgba(0, 255, 255, 0.331);
+    margin: auto;
+    width: 1000px;
+   
+
+}
+
+.tableCell {
+    border: 2px solid rgba(84, 182, 235, 0.669);
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer {
+    border: 2px solid rgba(84, 182, 235, 0.669);
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.starts {
+    color: rgb(53, 116, 168);
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.js-result {
+    color: red;
+    font-size: 25px;
+}
+
+.js-resultEuro {
+    color: red;
+    font-size: 25px;
+}
+
+.result {
+    color: red;
+    font-size: 25px;
+}
