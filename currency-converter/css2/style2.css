@@ -8,20 +8,25 @@ html {
     }
 
 
-.naglowek{
+.heading{
     color:rgb(61, 179, 200);
     background-color: rgba(0, 255, 255, 0.331);
     margin: 50px 300px 10px  150px;
 
+}
+.body-background{
+    color:rgb(205, 21, 171);
+    background-color: rgba(0, 255, 255, 0.331);
+    margin: auto;
+    width: 1000px; 
+    background-image: url("../images/background3.jpg");
 }
 
 .body{
     color:rgb(6, 42, 48);
     background-color: rgba(0, 255, 255, 0.331);
     margin: auto;
-    width: 1000px;
-   
-
+    width: 1000px; 
 }
 
 .tableCell {

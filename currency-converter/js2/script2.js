@@ -29,5 +29,5 @@ countEuro.addEventListener("submit", (event) => {
     let result = (sumnext * coursenext);
 
     resultEuro.innerText = result.toFixed(2);
-
+ 
 });
